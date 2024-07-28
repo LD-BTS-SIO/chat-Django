@@ -1,0 +1,55 @@
+= Compte rendu final de chat-django
+:toc:
+
+toc::[]
+== (DARRAS Loïc BTS SIO 22)
+== lien github : https://github.com/LD-BTS-SIO/chat-Django
+
+
+
+:figure-caption!:
+
+
+== I) Introduction 
+
+
+J'ai fais ce projet en suivant le tutoriel de  faiz-dev (https://www.youtube.com/watch?v=zok40RypRpo), j'ai pu mieux approfondir mes connaissances de Django et de python
+
+
+
+Pour ces projets, il faut donc installé Django (à travers le terminal de VS Code : *pip install django* et  installé un client sql : *pip install mysqlclient*)
+
+Ensuite on créé le projet : *django-admin startproject djangochat*
+
+Cela nous à crréé un dossier djangochat qui contient un sous dossier djangochat et un fichier manage.py.
+
+
+Ensuite on va créé l'application "chat", on fait un *cd djangochat* pour avoir accès au fichier *manage.py*
+
+
+Maintenant on fait *python manage.py startapp chat* .
+
+Cela nous à créé une app chat .
+
+== II) Présentation rapide des fichiers pythons les plus importants
+
+* admin.py : définit les paramètres d'administrations pour une application django
+
+* model.py : définit la structure de la BDD en utilisant des modèles d'objets. 
+
+* views.py : va contenir toutes nos fonctions , par exemple des fonctions pour insérer des données dans notre bdd, pour supprimer ..
+
+* url.py : est semblable à une table de correspondante qui relie les adresses web que les utilisateurs saissient à des fonctions qu'on va définir dans views.py . Cela va permettre de diriger les utilisateurs vers les pages appropriées  lorsqu'ils naviguent sur notre application
+
+
+* settings.py : va paramétrer notre application django . C'est dans ce fichier qu'on va répertorier les différentes applications que nous avons créé (par exemple chat ). Dans ce même fichier nous allons insérer plus tard les identifiants de notre BDD (nom, nom de l'administrateur, le mot de passe, le nom de la BDD etc..)
+
+
+== III) Modification des fichiers
+
+
+Dans settings.py, nous allons insérer dans les applications installés nottre app chat : 
+
+====
+image::djangochat\assets\app django.png[width=800, title="Intégration de chat dans les apps installés", alt=""]
+====
