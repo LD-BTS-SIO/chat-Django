@@ -53,3 +53,32 @@ Dans settings.py, nous allons insérer dans les applications installés nottre a
 ====
 image::djangochat\assets\app django.png[width=800, title="Intégration de chat dans les apps installés", alt=""]
 ====
+
+
+== IV) Voici les résultats visuels de l'application :
+
+
+====
+image::djangochat\assets\room de test loic.png[width=800, title="Page d'accueil", alt=""]
+====
+====
+image::djangochat\assets\loic chat django qui envoie un message.png[width=800, title="Room sans message", alt=""]
+====
+
+====
+image::djangochat\assets\loic qui envoie officiellement le message.png[width=800, title="1 message ", alt=""]
+====
+
+====
+image::djangochat\assets\loiv 2 message officiel.png[width=800, title="2 messages", alt=""]
+====
+
+
+====
+image::djangochat\assets\bdd représentation final.png[width=800, title="BDD complet ", alt=""]
+====
+
+====
+image::djangochat\assets\chat room bdd .png[width=800, title="Enregistrement des messages dans la bdd", alt=""]
+====
+
